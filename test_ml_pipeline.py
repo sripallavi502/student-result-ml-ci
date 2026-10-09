@@ -61,7 +61,7 @@ class TestMLPipeline(unittest.TestCase):
 
         prediction = model.predict(sample)[0]
 
-      self.assertEqual(int(prediction), 1)
+       self.assertEqual(int(prediction), 1)
 
     def test_low_performance_student(self):
 
